@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(9, 69, 107);
+}
+h1{color: orange;
+}
+.discrip{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+}
+.product{
+   
+   margin: 20px;
+display: flex;
+justify-content: space-evenly;
+
+
+   
+}
+.iterm{
+ background-color: white;
+    height: 250px;
+    padding: 20px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+img{
+    width: 100px;
+    height: 150px;
+}
+.add{
+    display: flex;
+    gap: 5px;
+   
+}
+button{
+ background-color:rgb(9, 69, 107);
+    color:orange;
+    border: none;
+    border-radius: 5px;
+
+}
+.item{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}

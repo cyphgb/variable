@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <center><h1>WELCOME TO CODING MADE EASY PRODUCT LIST</h1></center>
+
+  <center>
+    <p class="discrip">
+      Any course you need just get it by pressing the add button and the course will be automatically bought.
+      You can buy more than 1 as well as reduce by pressing the +1 or -1 button.
+    </p>
+  </center>
+
+  <br><br>
+
+  <div class="product">
+
+   
+    <div class="iterm" id="item-html">
+      <img src="html.png" alt="this is an html product">
+      <p>Buy HTML Course</p>
+
+      <div class="add">
+        <button type="button" class="plus" onclick="addItem('html')">Add</button>
+        <button type="button" class="incre" onclick="addItem('html')">+1</button>
+        <button type="button" class="incre" onclick="subtractItem('html')">-1</button>
+      </div>
+    </div>
+
+    
+    <div class="iterm" id="item-css">
+      <img src="css.png" alt="this is a css product">
+      <p>Buy CSS Course</p>
+  
+      <div class="add">
+        <button type="button" class="plus" onclick="addItem('css')">Add</button>
+        <button type="button" class="incre" onclick="addItem('css')">+1</button>
+        <button type="button" class="incre" onclick="subtractItem('css')">-1</button>
+      </div>
+    </div>
+    <div class="iterm" id="item-js">
+      <img src="js.png" alt="this is a JAVASCRIPT product">
+      <p>Buy JAVASCRIPT Course</p>
+  
+      <div class="add">
+        <button type="button" class="plus" onclick="addItem('js')">Add</button>
+        <button type="button" class="incre" onclick="addItem('js')">+1</button>
+        <button type="button" class="incre" onclick="subtractItem('js')">-1</button>
+      </div>
+    </div>
+    <div class="iterm" id="item-flutter">
+      <img src="flutter.png" alt="this is a flutter product">
+      <p>Buy flutter Course</p>
+  
+      <div class="add">
+        <button type="button" class="plus" onclick="addItem('flutter')">Add</button>
+        <button type="button" class="incre" onclick="addItem('flutter')">+1</button>
+        <button type="button" class="incre" onclick="subtractItem('flutter')">-1</button>
+      </div>
+    </div>
+    <div class="iterm" id="item-python">
+      <img src="python.png" alt="this is a python product">
+      <p>Buy python Course</p>
+  
+      <div class="add">
+        <button type="button" class="plus" onclick="addItem('python')">Add</button>
+        <button type="button" class="incre" onclick="addItem('python')">+1</button>
+        <button type="button" class="incre" onclick="subtractItem('python')">-1</button>
+      </div>
+    </div>
+
+    
+    
+  </div>
+  <div class="item">
+       <h2>PRODUCT ADD</h2>
+      <ul id="summary-list"></ul>
+         HTML <h1 id="count-html">0</h1>
+          CSS<h1 id="count-css">0</h1>
+          JAVASCRIPT <h1 id="count-js">0</h1>
+         flutter <h1 id="count-flutter">0</h1>
+         python <h1 id="count-python">0</h1>
+
+         <button onclick="clearItems()">Clear</button>
+    </div>
+
+
+  <br><br>
+
+  <script src="pro.js"></script>
+</body>
